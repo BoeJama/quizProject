@@ -1,3 +1,20 @@
-.button {
-  size: 50px;
+.button{
+  border-radius: 25px;
+  border-color: whitesmoke;
+  font-size: 50px;
+  background-color: whitesmoke;
+  color: slategray;
+  display: flex;
+  margin: auto auto auto;
+  margin-bottom: 10px;
 }
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+}
+
+.words{
+  text-align: center;
+  font-size: 50px;
+};
