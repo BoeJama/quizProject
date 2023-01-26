@@ -5,14 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <a href="scores.html">View Past Scores</a>
   <title>Give us a good grade</title>
   </head>
   <body>
     <h1>Coding Quiz</h1>
-    <p class="words">60 seconds, 10 questions, should be easy enough</p>
-    <p class="words" id="Timer">Time Left: </p>
-    <button class="button" onclick="quiz()">Start Quiz</button>
-    <button class="button" onclick="scores()">Past Scores</button>
+    <p class="timer" id="timer">Time Left: 25 Seconds</p>
+    <p class="words" id="questions"></p>
+    <button class="button2" id="true" onclick="right()">True</button>
+    <button class="button2" id="false" onclick="wrong()">False</button>
+    <button class="button3" id="true2" onclick="right2()">True</button>
+    <button class="button3" id="false2" onclick="wrong2()">False</button>
+    <button class="button4" id="true3" onclick="right3()">True</button>
+    <button class="button4" id="false3" onclick="wrong3()">False</button>
+    <button class="button" id="button" onclick="quiz()">Start Quiz</button>
 <script src="script.js"></script>
 </body>
 </html>
