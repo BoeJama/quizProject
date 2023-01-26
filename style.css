@@ -7,11 +7,53 @@
   display: flex;
   margin: auto auto auto;
   margin-bottom: 10px;
+  visibility: visible;
+}
+
+.button2{
+  border-radius: 25px;
+  border-color: whitesmoke;
+  font-size: 50px;
+  background-color: whitesmoke;
+  color: slategray;
+  display: flex;
+  margin: auto auto auto;
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+
+.button3{
+  border-radius: 25px;
+  border-color: whitesmoke;
+  font-size: 50px;
+  background-color: whitesmoke;
+  color: slategray;
+  display: flex;
+  margin: auto auto auto;
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+
+.button4{
+  border-radius: 25px;
+  border-color: whitesmoke;
+  font-size: 50px;
+  background-color: whitesmoke;
+  color: slategray;
+  display: flex;
+  margin: auto auto auto;
+  margin-bottom: 10px;
+  visibility: hidden;
 }
 
 h1 {
   text-align: center;
   font-size: 75px;
+}
+
+.timer{
+  text-align: center;
+  font-size: 50px;
 }
 
 .words{
