@@ -1,3 +1,3 @@
 # quizProject
 
-This is nowhere near finished, sorry.
+A very simple quiz which tests your knowledge on coding
